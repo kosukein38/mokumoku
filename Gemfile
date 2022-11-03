@@ -63,6 +63,12 @@ group :development do
   gem 'rubocop-rails', require: false
 end
 
+group :test do
+  gem 'simplecov', require: false
+  gem 'capybara'
+  gem 'webdrivers'
+end
+
 group :production do
   gem 'pg'
 end
